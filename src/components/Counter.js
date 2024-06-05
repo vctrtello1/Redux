@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import classes from './Counter.module.css';
 
+
 const Counter = () => {
 
   const dispatch = useDispatch()
@@ -32,6 +33,7 @@ const Counter = () => {
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
   );
-};
+}; 
+
 
 export default Counter;
